@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #121919;
+    overflow: auto;
+    scrollbar-width: 0px;
+    scroll-margin-right: 0px;
+}
+#box1{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    margin-bottom: 10px; 
+    border-radius: 5px;
+    background-color: #0e1313;
+    /* justify-content: space-around; */
+    border: 0.1px solid rgb(43, 42, 42);
+    box-shadow: 1px 1px 2px rgb(72, 71, 71);
+    gap: 40px;
+}
+#box2{
+    padding-top: 10px;
+    padding-bottom: 10px;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+#title{    
+    margin-left: 30px;
+    font-size: 40px;
+    font-family: cursive;
+    color: #A3C1AD;
+    font-weight: bolder;
+}
+#quote{
+    align-self: flex-end;
+    margin-right: 30px;
+    font-family:  'Dancing Script', cursive;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.box2_1{
+    width:22%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    border: 0.1px solid rgb(43, 42, 42);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #171d1d;
+    min-height: 100px;
+    overflow-y: auto;
+    box-shadow: 1px 1px 2px rgb(72, 71, 71);
+}
+.innerTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    height: 30px;
+    background-color: #0e1313;
+    border-radius: 10px; 
+}
+.subtitle{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+    /* color: #16094c; */
+}
+.tasks{
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    border-radius: 10px;
+}
+.add{
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid rgb(40, 39, 39);
+    background-color: rgb(38, 37, 37);
+}
+.addtxt{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+}
+.task{
+    border-radius: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    padding:10px;
+    border: 0.1px solid rgb(43, 42, 42);
+    background-color:#0e1313;
+    width: 300px;
+    min-height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 2px rgb(72, 71, 71);
+}
+#inpbtn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.in{
+    border: 0.1px solid rgb(43, 42, 42);
+    border-radius: 5px;
+    height: 25px;
+    padding-left: 10px;
+    background-color: #232222;
+    font-size: 15px;
+}
+#hd{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    color: rgb(195, 191, 191);
+
+}
+.task1{
+    border: 0.1px solid rgb(43, 42, 42);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+    padding:10px;
+    background-color: #0e1313;
+    cursor: grab;
+
+}
+#tn{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    word-wrap: break-word;
+    color: rgb(195, 191, 191);
+}
+#td{
+    font-family: sans-serif; 
+    padding-left: 15px;      
+    word-wrap: break-word;
+    color: rgb(195, 191, 191);
+}
+#tp{ 
+    font-family: sans-serif;
+    border: 0.1px solid rgb(43, 42, 42);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 20px;
+    color: rgb(255, 255, 255);
+}
+#bx{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+input{
+    color: rgb(195, 191, 191);
+    font-size: 20px;
+} 
